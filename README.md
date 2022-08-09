@@ -36,7 +36,7 @@ This a small project to see currency live exchange values and the option to conv
 
 ## Deployment
 
-To deploy this project in shell write the following
+To deploy this project in shell change the working directory to this repository and write the following shell command
 
 ```bash
   python source.py
