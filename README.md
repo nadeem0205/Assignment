@@ -34,3 +34,12 @@ This a small project to see currency live exchange values and the option to conv
 
 
 
+## Deployment
+
+To deploy this project in shell write the following
+
+```bash
+  python source.py
+```
+
+
