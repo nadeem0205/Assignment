@@ -7,7 +7,7 @@ def available_currencies():
     url = "https://api.apilayer.com/fixer/symbols"
 
     headers = {
-        "apikey": "3tIR4MkLAV6tI3stcYIlGAQPLHqWbPzh"
+        "apikey": "Nz8oaMialBz9tZ3c3C7eHlvuEKRqpa77"
     }
 
     response = requests.request("GET", url, headers=headers)
@@ -25,7 +25,7 @@ def show_latest_value():
     url = "https://api.apilayer.com/fixer/latest"
 
     headers = {
-        "apikey": "3tIR4MkLAV6tI3stcYIlGAQPLHqWbPzh"
+        "apikey": "Nz8oaMialBz9tZ3c3C7eHlvuEKRqpa77"
     }
 
     response = requests.request("GET", url, headers=headers)
@@ -47,7 +47,7 @@ def historical_data(x, y):
         str(start_date) + "&symbols=" + a + "," + b
 
     headers = {
-        "apikey": "3tIR4MkLAV6tI3stcYIlGAQPLHqWbPzh"
+        "apikey": "Nz8oaMialBz9tZ3c3C7eHlvuEKRqpa77"
     }
 
     response = requests.request("GET", url, headers=headers)
@@ -69,7 +69,7 @@ def currency_convert():
     amount = str((float(input("\nEnter the amount to be converted : "))))
 
     headers = {
-        "apikey": "3tIR4MkLAV6tI3stcYIlGAQPLHqWbPzh"
+        "apikey": "Nz8oaMialBz9tZ3c3C7eHlvuEKRqpa77"
     }
 
     url = "https://api.apilayer.com/fixer/convert?to=" + \
@@ -95,7 +95,7 @@ def currency_convert():
 def menu():
     print("\n MENU\n _____________________________\n")
     print("[1] View All Available Currencies")
-    print("[2] Show the Latest Exnchange Rates")
+    print("[2] Show the Latest Exchange Rates")
     print("[3] Currency Converter")
     print("[4] Exit the program")
 
